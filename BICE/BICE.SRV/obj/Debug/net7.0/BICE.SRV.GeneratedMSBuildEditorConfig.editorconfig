@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BICE.SRV
-build_property.ProjectDir = /Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.SRV/
+build_property.ProjectDir = /Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.SRV/

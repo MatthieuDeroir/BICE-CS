@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.DTO/BICE.DTO.csproj",
+      "projectUniqueName": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.DTO/BICE.DTO.csproj",
       "projectName": "BICE.DTO",
-      "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.DTO/BICE.DTO.csproj",
+      "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.DTO/BICE.DTO.csproj",
       "packagesPath": "/Users/mderoir/.nuget/packages/",
-      "outputPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.DTO/obj/",
+      "outputPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.DTO/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mderoir/.nuget/NuGet/NuGet.Config"
