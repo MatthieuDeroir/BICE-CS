@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE-API.csproj": {}
+    "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE.API.csproj": {}
   },
   "projects": {
-    "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE-API.csproj": {
+    "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE-API.csproj",
-        "projectName": "BICE-API",
-        "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE-API.csproj",
+        "projectUniqueName": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE.API.csproj",
+        "projectName": "BICE.API",
+        "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE.API.csproj",
         "packagesPath": "/Users/mderoir/.nuget/packages/",
         "outputPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/obj/",
         "projectStyle": "PackageReference",

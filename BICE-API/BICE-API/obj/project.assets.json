@@ -465,9 +465,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE-API.csproj",
-      "projectName": "BICE-API",
-      "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE-API.csproj",
+      "projectUniqueName": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE.API.csproj",
+      "projectName": "BICE.API",
+      "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE.API.csproj",
       "packagesPath": "/Users/mderoir/.nuget/packages/",
       "outputPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/obj/",
       "projectStyle": "PackageReference",
@@ -478,6 +478,7 @@
         "net7.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE-API.csproj": {}
+    "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.DTO/BICE.DTO.csproj": {}
   },
   "projects": {
-    "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE-API.csproj": {
+    "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.DTO/BICE.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE-API.csproj",
-        "projectName": "BICE-API",
-        "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE-API.csproj",
+        "projectUniqueName": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.DTO/BICE.DTO.csproj",
+        "projectName": "BICE.DTO",
+        "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.DTO/BICE.DTO.csproj",
         "packagesPath": "/Users/mderoir/.nuget/packages/",
-        "outputPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/obj/",
+        "outputPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.DTO/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mderoir/.nuget/NuGet/NuGet.Config"
@@ -38,16 +38,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -60,9 +50,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

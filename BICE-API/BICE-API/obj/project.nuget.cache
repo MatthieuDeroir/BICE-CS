@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wPtDHHJ1Criv0QyNumWSYjuROCvovPt/ydQSSdtWOVikJr6LdZ8SZHsx5rwNedUlFeAgF8Hgre+Vdf92j9BG4A==",
+  "dgSpecHash": "evmiapugOUm5VAU8xnZT/8rRpKzOAv0FmqZXV+jBjl6tbEblaWVGhBOehtQQk+oHSknUjyAp7goiiEDlUawyOQ==",
   "success": true,
-  "projectFilePath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE-API.csproj",
+  "projectFilePath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE-API/BICE.API.csproj",
   "expectedPackageFiles": [
     "/Users/mderoir/.nuget/packages/microsoft.aspnetcore.openapi/7.0.3/microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "/Users/mderoir/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
