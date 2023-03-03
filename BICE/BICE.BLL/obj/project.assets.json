@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.BLL/BICE.BLL.csproj",
+      "projectUniqueName": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.BLL/BICE.BLL.csproj",
       "projectName": "BICE.BLL",
-      "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.BLL/BICE.BLL.csproj",
+      "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.BLL/BICE.BLL.csproj",
       "packagesPath": "/Users/mderoir/.nuget/packages/",
-      "outputPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.BLL/obj/",
+      "outputPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.BLL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mderoir/.nuget/NuGet/NuGet.Config"

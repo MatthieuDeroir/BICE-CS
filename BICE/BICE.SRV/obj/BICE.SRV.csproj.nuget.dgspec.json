@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.SRV/BICE.SRV.csproj": {}
+    "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.SRV/BICE.SRV.csproj": {}
   },
   "projects": {
-    "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.SRV/BICE.SRV.csproj": {
+    "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.SRV/BICE.SRV.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.SRV/BICE.SRV.csproj",
+        "projectUniqueName": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.SRV/BICE.SRV.csproj",
         "projectName": "BICE.SRV",
-        "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.SRV/BICE.SRV.csproj",
+        "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.SRV/BICE.SRV.csproj",
         "packagesPath": "/Users/mderoir/.nuget/packages/",
-        "outputPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.SRV/obj/",
+        "outputPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.SRV/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mderoir/.nuget/NuGet/NuGet.Config"

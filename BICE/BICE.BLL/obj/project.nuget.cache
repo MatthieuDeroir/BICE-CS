@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UFwc0LD+pFlBEmAUk9+8DbUu41XuB4+7XS8r6/yWZqC08kTfulVv+oivDmifbkqWc5q+SLD36yd801IrHLNiLQ==",
+  "dgSpecHash": "9jGhJ3pwOsfWcPA0nFS9hqjqkqnXcOAzp19Ud0E82PgL6QANh3ihHMXJVUTdpldmwRQuKrovop4cg3h1hucuOw==",
   "success": true,
-  "projectFilePath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.BLL/BICE.BLL.csproj",
+  "projectFilePath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.BLL/BICE.BLL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

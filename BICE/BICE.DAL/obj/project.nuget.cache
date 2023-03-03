@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZV397R5ESaWCNZi7ZMzvfqlLM7A8Xl0kecU39eehjeZMDaBl4qdfLRAkfHyhUwCyoQX8vBcDVy+2ssQlD1zJUg==",
+  "dgSpecHash": "xekxpFJR6i2TxbuZJDyQJCBbWtFBhXBISoMZjCkY1xdSpugtPHRm29B0qI0rJ5Sy4KDnssmVBrZitK9NEhtatw==",
   "success": true,
-  "projectFilePath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE-API/BICE.DAL/BICE.DAL.csproj",
+  "projectFilePath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.DAL/BICE.DAL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
