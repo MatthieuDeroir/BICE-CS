@@ -1,0 +1,9 @@
+﻿using System;
+namespace BICE.DTO
+{
+    public class BaseNamedEntity_DTO
+    {
+        public String Denomination { get; set; }
+    }
+}
+

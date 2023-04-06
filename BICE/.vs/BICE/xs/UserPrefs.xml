@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="{03868E16-2731-4A14-BDE0-CB52DEFF15DC}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.BICE.BLL FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.BICE.SRV FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.BICE.DTO FirstBuild="True" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.ItemProperties.BICE.DAL FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.BICE.API PreferredExecutionTarget="/Applications/Firefox.app" FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BICE.TEST FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.BICE.DAL FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.BICE.DTO FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.BICE.SRV FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.BICE.BLL FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.BICE.API FirstBuild="True" PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workbench />
+  <MultiItemStartupConfigurations />
 </Properties>

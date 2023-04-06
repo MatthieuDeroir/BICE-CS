@@ -1,0 +1,12 @@
+﻿using System;
+namespace BICE.DTO
+{
+    public class Vehicle_DTO
+    {
+        public String InternalNumber { get; set; }
+        public String LicensePlate { get; set; }
+        public String Denomination { get; set; }
+        public Boolean isActive { get; set; }
+    }
+}
+

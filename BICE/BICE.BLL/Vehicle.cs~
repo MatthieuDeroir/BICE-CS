@@ -1,0 +1,19 @@
+﻿using System;
+using BICE.BLL;
+
+
+namespace BICE.BLL
+{
+	public class Vehicle
+	{
+		public String Denomination { get; set; }
+		public String LicensePlate { get; set; }
+		public Boolean isActive { get; set; }
+
+        public Vehicle()
+		{
+
+		}
+	}
+}
+

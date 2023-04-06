@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BICE.DTO", "BICE.DTO\BICE.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BICE.SRV", "BICE.SRV\BICE.SRV.csproj", "{60193904-9564-4B74-A47B-E7B2B82D04C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BICE.TEST", "BICE.TEST\BICE.TEST.csproj", "{CC0F143E-7FD6-48DC-BD96-87BB61C58D01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{60193904-9564-4B74-A47B-E7B2B82D04C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60193904-9564-4B74-A47B-E7B2B82D04C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60193904-9564-4B74-A47B-E7B2B82D04C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0F143E-7FD6-48DC-BD96-87BB61C58D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0F143E-7FD6-48DC-BD96-87BB61C58D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0F143E-7FD6-48DC-BD96-87BB61C58D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0F143E-7FD6-48DC-BD96-87BB61C58D01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
