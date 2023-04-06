@@ -1,0 +1,11 @@
+﻿using System;
+using BICE.DAL;
+
+namespace BICE.DAL
+{
+	public interface IRepo_DAL<Type_DAL>
+	{
+		
+	}
+}
+

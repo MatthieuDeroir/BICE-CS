@@ -1,0 +1,13 @@
+﻿using System;
+using BICE.BLL;
+
+namespace BICE.BLL
+{
+	public class VehicleIntervention
+	{
+		public VehicleIntervention()
+		{
+		}
+	}
+}
+
