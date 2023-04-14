@@ -68,7 +68,7 @@ namespace BICE.BLL
 
         private void ValidateMaxUsageCount()
         {
-            if (MaxUsageCount.HasValue && MaxUsageCount < 1)
+            if (MaxUsageCount < 1)
             {
                 throw new ArgumentException("Max Usage Count cannot be equal or inferior to 0!");
             } 
