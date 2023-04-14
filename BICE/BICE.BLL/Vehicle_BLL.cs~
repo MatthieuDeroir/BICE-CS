@@ -1,25 +1,30 @@
 ﻿using System;
-using BICE.BLL;
-
+using System.ComponentModel.DataAnnotations;
 
 namespace BICE.BLL
 {
-	public class Vehicle_BLL
-	{
-        public String Denomination { get; set; }
-        public String InternalNumber { get; set; }
-		public String LicensePlate { get; set; }
-		public Boolean isActive { get; set; }
+    public class Vehicle_BLL
+    {
+        [Required(ErrorMessage = "Denomination is required")]
+        [StringLength(255, ErrorMessage = "Denomination cannot exceed 255 characters")]
+        public string Denomination { get; private set; }
 
-        public Vehicle_BLL(String _Denomination, String _InternalNumber, String _LicensePlate, Boolean _isActive)
-		{
-			Denomination = _Denomination;
-			InternalNumber = _InternalNumber;
-			LicensePlate = _LicensePlate;
-			isActive = _isActive;
-		}
+        [Required(ErrorMessage = "Internal number is required")]
+        [StringLength(50, ErrorMessage = "Internal number cannot exceed 50 characters")]
+        public string InternalNumber { get; private set; }
 
+        [Required(ErrorMessage = "License plate is required")]
+        [StringLength(20, ErrorMessage = "License plate cannot exceed 20 characters")]
+        public string LicensePlate { get; private set; }
 
-	}
+        public bool IsActive { get; private set; }
+
+        public Vehicle_BLL(string denomination, string internalNumber, string licensePlate, bool isActive)
+        {
+            Denomination = denomination;
+            InternalNumber = internalNumber;
+            LicensePlate = licensePlate;
+            IsActive = isActive;
+        }
+    }
 }
-

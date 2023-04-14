@@ -31,17 +31,17 @@ namespace BICE.BLL
         [Required(ErrorMessage = "Denomination is required !")]
         public Boolean IsStored { get; set; }
 
-		public Material_BLL(String _Denomination, String _Barcode, String _Category,
-            int _UsageCount, int? _MaxUsageCount, DateTime? _ExpirationDate, DateTime? _NextControlDate, Boolean _IsStored)
+		public Material_BLL(String denomination, String barcode, String category,
+            int usageCount, int? maxUsageCount, DateTime? expirationDate, DateTime? nextControlDate, Boolean isStored)
 		{
-            Denomination = _Denomination;
-            Barcode = _Barcode;
-            Category = _Category;
-            UsageCount = _UsageCount;
-            MaxUsageCount = _MaxUsageCount;
-            ExpirationDate = _ExpirationDate;
-            NextControlDate = _NextControlDate;
-            IsStored = _IsStored;
+            Denomination = denomination;
+            Barcode = barcode;
+            Category = category;
+            UsageCount = usageCount;
+            MaxUsageCount = maxUsageCount;
+            ExpirationDate = expirationDate;
+            NextControlDate = nextControlDate;
+            IsStored = isStored;
             ValidateDates();
             ValidateUsageCount();
             ValidateMaxUsageCount();
@@ -68,7 +68,7 @@ namespace BICE.BLL
 
         private void ValidateMaxUsageCount()
         {
-            if (MaxUsageCount < 1)
+            if (MaxUsageCount.HasValue && MaxUsageCount < 1)
             {
                 throw new ArgumentException("Max Usage Count cannot be equal or inferior to 0!");
             } 

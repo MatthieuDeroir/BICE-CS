@@ -19,12 +19,12 @@ namespace BICE.BLL
 
         public bool IsActive { get; private set; }
 
-        public Vehicle_BLL(string _Denomination, string _InternalNumber, string _LicensePlate, bool _IsActive)
+        public Vehicle_BLL(string denomination, string internalNumber, string licensePlate, bool isActive)
         {
-            Denomination = _Denomination;
-            InternalNumber = _InternalNumber;
-            LicensePlate = _LicensePlate;
-            IsActive = _IsActive;
+            Denomination = denomination;
+            InternalNumber = internalNumber;
+            LicensePlate = licensePlate;
+            IsActive = isActive;
         }
     }
 }
