@@ -11,4 +11,14 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BICE.BLL\BICE.BLL.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Repositories\" />
+    <None Remove="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
 </Project>
