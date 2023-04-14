@@ -5,6 +5,8 @@ namespace BICE.DAL
 {
     public class Material_DAL
     {
+        //TODO: Add IsLost property
+        //TODO: Add IsUsable property
         public int Id { get; set; }
         public string Denomination { get; set; }
         public string Barcode { get; set; }
@@ -15,7 +17,7 @@ namespace BICE.DAL
         public DateTime? NextControlDate { get; set; }
         public bool IsStored { get; set; }
 
-        public MaterialDAL(string denomination, string barcode, string category, int usageCount, int? maxUsageCount, DateTime? expirationDate, DateTime? nextControlDate, bool isStored)
+        public Material_DAL(string denomination, string barcode, string category, int usageCount, int? maxUsageCount, DateTime? expirationDate, DateTime? nextControlDate, bool isStored)
         {
             Denomination = denomination;
             Barcode = barcode;
@@ -27,7 +29,7 @@ namespace BICE.DAL
             IsStored = isStored;
         }
 
-        public MaterialDAL(int id, string denomination, string barcode, string category, int usageCount, int? maxUsageCount, DateTime? expirationDate, DateTime? nextControlDate, bool isStored)
+        public Material_DAL(int id, string denomination, string barcode, string category, int usageCount, int? maxUsageCount, DateTime? expirationDate, DateTime? nextControlDate, bool isStored)
             : this(denomination, barcode, category, usageCount, maxUsageCount, expirationDate, nextControlDate, isStored)
         {
             Id = id;

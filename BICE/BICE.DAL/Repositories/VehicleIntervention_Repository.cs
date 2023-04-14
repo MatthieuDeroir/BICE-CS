@@ -6,33 +6,33 @@ using BICE.BLL;
 
 namespace BICE.DAL
 {
-    public class VehicleInterventionRepository : Repository<VehicleIntervention_DAL>
+    public class VehicleIntervention_Repository : Repository<VehicleIntervention_DAL>
     {
         // Implement the CRUD methods for VehicleIntervention
 
         public override VehicleIntervention_DAL GetById(int id)
         {
-            // Implement the GetById method for VehicleIntervention
+            throw new NotImplementedException();
         }
 
         public override IEnumerable<VehicleIntervention_DAL> GetAll()
         {
-            // Implement the GetAll method for VehicleIntervention
+            throw new NotImplementedException();
         }
 
         public override VehicleIntervention_DAL Insert(VehicleIntervention_DAL vehicleIntervention)
         {
-            // Implement the Insert method for VehicleIntervention
+            throw new NotImplementedException();
         }
 
         public override VehicleIntervention_DAL Update(VehicleIntervention_DAL vehicleIntervention)
         {
-            // Implement the Update method for VehicleIntervention
+            throw new NotImplementedException();
         }
 
         public override void Delete(VehicleIntervention_DAL vehicleIntervention)
         {
-            // Implement the Delete method for VehicleIntervention
+            throw new NotImplementedException();
         }
     }
 }

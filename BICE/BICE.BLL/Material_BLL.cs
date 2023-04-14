@@ -7,10 +7,13 @@ namespace BICE.BLL
 {
 	public class Material_BLL
 	{
+        //TODO: Add IsLost property
+        //TODO: Add IsUsable property
+        //TODO: Add IsUsable logic (usageCount < maxUsageCount && expirationDate > DateTime.Now && nextControlDate > DateTime.Now)
         [Required(ErrorMessage = "Denomination is required !")]
         [StringLength(255,ErrorMessage = "Denomination cannot exceed 255 characters !")]
         public String Denomination { get; set; }
-
+        
         [Required(ErrorMessage = "Barcode is required !")]
         [StringLength(50, ErrorMessage = "Barcode cannot exceed 50 characters !")]
         public String Barcode { get; set; }

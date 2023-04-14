@@ -5,9 +5,9 @@ using BICE.BLL;
 
 public class VehicleService
 {
-    private readonly VehicleRepository _vehicleRepository;
+    private readonly Vehicle_Repository _vehicleRepository;
 
-    public VehicleService(VehicleRepository vehicleRepository)
+    public VehicleService(Vehicle_Repository vehicleRepository)
     {
         _vehicleRepository = vehicleRepository;
     }
