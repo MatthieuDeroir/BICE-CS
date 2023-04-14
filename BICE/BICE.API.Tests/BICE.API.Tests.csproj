@@ -23,4 +23,12 @@
         </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\BICE-API\BICE.API.csproj" />
+      <ProjectReference Include="..\BICE.BLL\BICE.BLL.csproj" />
+      <ProjectReference Include="..\BICE.DAL\BICE.DAL.csproj" />
+      <ProjectReference Include="..\BICE.DTO\BICE.DTO.csproj" />
+      <ProjectReference Include="..\BICE.SRV\BICE.SRV.csproj" />
+    </ItemGroup>
+
 </Project>
