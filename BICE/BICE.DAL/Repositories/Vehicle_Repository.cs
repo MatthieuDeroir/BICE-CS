@@ -2,12 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using BICE.DAL.Repositories;
-using BICE.DAL;
 using BICE.BLL;
 
 namespace BICE.DAL
 {
-    public class VehicleRepository : Repository<Vehicle_DAL>
+    public class Vehicle_Repository : Repository<Vehicle_DAL>
     {
         // Implement the CRUD methods for Vehicle
 
@@ -25,7 +24,7 @@ namespace BICE.DAL
         {
             var query = "INSERT INTO Vehicles (internalNumber, denomination, licensePlate, isActive) OUTPUT INSERTED.id VALUES (@internalNumber, @denomination, @licensePlate, @isActive)";
 
-            using (var connection = new SqlConnection(_connectionString))
+            using (var connection = new SqlConnection(ConnectionString))
             {
                 connection.Open();
 

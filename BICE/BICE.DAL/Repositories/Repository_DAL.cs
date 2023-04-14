@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
+using BICE.DAL;
 
 namespace BICE.DAL.Repositories
 {
