@@ -5,6 +5,8 @@ namespace BICE.DAL
 {
     public class Material_DAL
     {
+        //TODO: Add IsLost property
+        //TODO: Add IsUsable property
         public int Id { get; set; }
         public string Denomination { get; set; }
         public string Barcode { get; set; }
