@@ -344,6 +344,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "BICE.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BICE.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BICE.BLL.dll": {}
+        }
       }
     }
   },
@@ -980,10 +990,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "BICE.BLL/1.0.0": {
+      "type": "project",
+      "path": "../BICE.BLL/BICE.BLL.csproj",
+      "msbuildProject": "../BICE.BLL/BICE.BLL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "BICE.BLL >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.Configuration.Json >= 7.0.0",
       "System.Data.SqlClient >= 4.8.5"
@@ -1014,7 +1030,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.BLL/BICE.BLL.csproj": {
+              "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.BLL/BICE.BLL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

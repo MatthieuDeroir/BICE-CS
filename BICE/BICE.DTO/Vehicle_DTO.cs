@@ -5,7 +5,7 @@ namespace BICE.DTO
     {
         public String InternalNumber { get; set; }
         public String LicensePlate { get; set; }
-        public Boolean isActive { get; set; }
+        public Boolean IsActive { get; set; }
     }
 }
 
