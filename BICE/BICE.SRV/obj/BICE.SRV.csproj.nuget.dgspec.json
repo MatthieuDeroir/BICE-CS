@@ -152,7 +152,14 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.BLL/BICE.BLL.csproj": {
+                "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.BLL/BICE.BLL.csproj"
+              },
+              "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.DAL/BICE.DAL.csproj": {
+                "projectPath": "/Users/mderoir/Desktop/EPSI/B2/ConceptionSolutionSecurisee/BICE/BICE.DAL/BICE.DAL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

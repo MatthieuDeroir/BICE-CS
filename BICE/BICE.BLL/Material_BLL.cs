@@ -9,7 +9,7 @@ namespace BICE.BLL
 	{
         //TODO: Add IsLost property
         //TODO: Add IsUsable property
-        //TODO: Add IsUsable logic (usageCount < maxUsageCount && expirationDate > DateTime.Now && nextControlDate > DateTime.Now)
+        //TODO: Add IsUsable logic (usageCount < maxUsageCount && expirationDate > DateTime.Now && nextControlDate > DateTime.Now && isStored == true)
         [Required(ErrorMessage = "Denomination is required !")]
         [StringLength(255,ErrorMessage = "Denomination cannot exceed 255 characters !")]
         public String Denomination { get; set; }

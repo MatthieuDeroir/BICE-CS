@@ -1,30 +1,27 @@
-﻿using BICE.DAL;
+﻿using System.Collections.Generic;
 using BICE.DTO;
 using BICE.BLL;
+using BICE.DAL;
 
-
-public class VehicleService
+namespace BICE.SRV
 {
-    private readonly Vehicle_Repository _vehicleRepository;
-
-    public VehicleService(Vehicle_Repository vehicleRepository)
+    public class Vehicle_SRV
     {
-        _vehicleRepository = vehicleRepository;
-    }
+        private readonly Vehicle_Repository _vehicleRepository;
 
-    public Vehicle_DTO AddVehicle(Vehicle_DTO vehicleDto)
-    {
-        var vehicleBll = new Vehicle_BLL(vehicleDto.InternalNumber, vehicleDto.Denomination, vehicleDto.LicensePlate, vehicleDto.IsActive);
-        var vehicleDal = new Vehicle_DAL(vehicleBll);
-        var addedVehicleDal = _vehicleRepository.Insert(vehicleDal);
-
-        return new Vehicle_DTO
+        public Vehicle_SRV()
         {
-            Id = addedVehicleDal.Id,
-            InternalNumber = addedVehicleDal.InternalNumber,
-            Denomination = addedVehicleDal.Denomination,
-            LicensePlate = addedVehicleDal.LicensePlate,
-            IsActive = addedVehicleDal.IsActive
-        };
+            _vehicleRepository = new Vehicle_Repository();
+        }
+
+        public Vehicle_DTO AddVehicle(Vehicle_DTO vehicleDto)
+        {
+            Vehicle_BLL vehicleBll = vehicleDto.ToBLL();
+            Vehicle_DAL vehicleDal = new Vehicle_DAL(vehicleBll);
+            Vehicle_DAL insertedVehicle = _vehicleRepository.Insert(vehicleDal);
+            return new Vehicle_DTO(insertedVehicle);
+        }
+
+        // Implement other CRUD methods using DTO conversions
     }
 }
